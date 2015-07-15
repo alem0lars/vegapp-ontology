@@ -15,9 +15,48 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://nextreamlabs.org/ontologies/vegapp">
-        <owl:versionIRI rdf:resource="http://nextreamlabs.org/ontologies/vegapp/1.0.0"/>
+    <owl:Ontology rdf:about="http://molarialessandro.rocks/ontologies/vegapp">
+        <owl:versionIRI rdf:resource="http://molarialessandro.rocks/ontologies/vegapp/1.0.0"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_275855b2_210c_44ae_9d1b_0fd0a1eb5bfc -->
+
+    <owl:Class rdf:about="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_275855b2_210c_44ae_9d1b_0fd0a1eb5bfc">
+        <rdfs:label xml:lang="en">Value</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e49dee40_d570_4c35_9da3_144a9eb6f857"/>
+        <owl:disjointWith rdf:resource="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_cac2825e_ae96_4385_a00c_7a7a1f07bf81"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_cac2825e_ae96_4385_a00c_7a7a1f07bf81 -->
+
+    <owl:Class rdf:about="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_cac2825e_ae96_4385_a00c_7a7a1f07bf81">
+        <rdfs:label xml:lang="en">Independent_entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e49dee40_d570_4c35_9da3_144a9eb6f857"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e49dee40_d570_4c35_9da3_144a9eb6f857 -->
+
+    <owl:Class rdf:about="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e49dee40_d570_4c35_9da3_144a9eb6f857">
+        <rdfs:label xml:lang="en">Domain_entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
 </rdf:RDF>
 
 
