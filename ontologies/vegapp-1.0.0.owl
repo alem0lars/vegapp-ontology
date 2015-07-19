@@ -6,18 +6,145 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY vegapp "http://molarialessandro.rocks/ontologies/vegapp#" >
 ]>
 
 
 <rdf:RDF xmlns="http://nextreamlabs.org/ontologies/vegapp#"
      xml:base="http://nextreamlabs.org/ontologies/vegapp"
+     xmlns:vegapp="http://molarialessandro.rocks/ontologies/vegapp#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://molarialessandro.rocks/ontologies/vegapp">
+        <rdfs:comment rdf:datatype="&xsd;string">The ontology and initial knowledge for the VegApp</rdfs:comment>
         <owl:versionIRI rdf:resource="http://molarialessandro.rocks/ontologies/vegapp/1.0.0"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_03872295_5bab_46af_8f16_d0408bc7df6e -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_03872295_5bab_46af_8f16_d0408bc7df6e">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">hasEnergy</rdfs:label>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d"/>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_dc966697_370a_4d24_80f9_4f02829907f0"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_463a641e_ab4c_444e_90dc_12596686c9f1 -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_463a641e_ab4c_444e_90dc_12596686c9f1">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">hasLastName</rdfs:label>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_bea69477_cbe2_460d_a421_723b108ceb30"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_67a2aac0_fc50_4186_b312_ef0e9792b83b -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_67a2aac0_fc50_4186_b312_ef0e9792b83b">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">hasEmail</rdfs:label>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_1b450163_92ac_4144_bd11_0d3bbbf117ac"/>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_76fefa3f_de37_4a8e_a5b5_9e8ca467c213 -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_76fefa3f_de37_4a8e_a5b5_9e8ca467c213">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">belongsToPartition</rdfs:label>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa"/>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_8272e972_c41b_43b1_ba6e_772019d9f711 -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_8272e972_c41b_43b1_ba6e_772019d9f711">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">hasPortrait</rdfs:label>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_3bb09141_d2d9_4bf9_b3bf_88abb4c1ebb3"/>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_e5af9c68_67d9_4914_8b22_96d94d339bf0 -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_e5af9c68_67d9_4914_8b22_96d94d339bf0">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">hasFirstName</rdfs:label>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_bea69477_cbe2_460d_a421_723b108ceb30"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLDataProperty_29e89d75_93b8_4269_9795_99f75dab8acc -->
+
+    <owl:DatatypeProperty rdf:about="&vegapp;OWLDataProperty_29e89d75_93b8_4269_9795_99f75dab8acc">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">hasQuantity</rdfs:label>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_dc966697_370a_4d24_80f9_4f02829907f0"/>
+        <rdfs:range rdf:resource="&xsd;long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLDataProperty_8db6c411_163b_4a88_9a39_15a664647738 -->
+
+    <owl:DatatypeProperty rdf:about="&vegapp;OWLDataProperty_8db6c411_163b_4a88_9a39_15a664647738">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">hasBiography</rdfs:label>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -32,31 +159,344 @@
     
 
 
-    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_275855b2_210c_44ae_9d1b_0fd0a1eb5bfc -->
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_0106359d_4cd3_4fd3_a934_3792d4b48e47 -->
 
-    <owl:Class rdf:about="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_275855b2_210c_44ae_9d1b_0fd0a1eb5bfc">
-        <rdfs:label xml:lang="en">Value</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e49dee40_d570_4c35_9da3_144a9eb6f857"/>
-        <owl:disjointWith rdf:resource="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_cac2825e_ae96_4385_a00c_7a7a1f07bf81"/>
+    <owl:Class rdf:about="&vegapp;OWLClass_0106359d_4cd3_4fd3_a934_3792d4b48e47">
+        <rdfs:label rdf:datatype="&xsd;string">High</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
     </owl:Class>
     
 
 
-    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_cac2825e_ae96_4385_a00c_7a7a1f07bf81 -->
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_0f996860_4c19_4dc4_a528_2df4ec32b1a6 -->
 
-    <owl:Class rdf:about="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_cac2825e_ae96_4385_a00c_7a7a1f07bf81">
-        <rdfs:label xml:lang="en">Independent_entity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e49dee40_d570_4c35_9da3_144a9eb6f857"/>
+    <owl:Class rdf:about="&vegapp;OWLClass_0f996860_4c19_4dc4_a528_2df4ec32b1a6">
+        <rdfs:label xml:lang="en">Water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
     </owl:Class>
     
 
 
-    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e49dee40_d570_4c35_9da3_144a9eb6f857 -->
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_156c226b_d7fa_4a3f_bf59_0364ca5900dd -->
 
-    <owl:Class rdf:about="http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e49dee40_d570_4c35_9da3_144a9eb6f857">
-        <rdfs:label xml:lang="en">Domain_entity</rdfs:label>
+    <owl:Class rdf:about="&vegapp;OWLClass_156c226b_d7fa_4a3f_bf59_0364ca5900dd">
+        <rdfs:label rdf:datatype="&xsd;string">Magnesium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_1b450163_92ac_4144_bd11_0d3bbbf117ac -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_1b450163_92ac_4144_bd11_0d3bbbf117ac">
+        <rdfs:label rdf:datatype="&xsd;string">Email</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A email is an address which identifies an email box to which email messages are delivered.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_273645a6_122f_4039_935b_b505e69cdd6b -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_273645a6_122f_4039_935b_b505e69cdd6b">
+        <rdfs:label rdf:datatype="&xsd;string">Calcium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Calcium is an important component of a healthy diet and a mineral necessary for life. The National Osteoporosis Foundation says, &quot;Calcium plays an important role in building stronger, denser bones early in life and keeping bones strong and healthy later in life.&quot; Approximately 99 percent of the body&apos;s calcium is stored in the bones and teeth.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_2d63aeab_22bf_4cde_881a_85260a2d3843 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_2d63aeab_22bf_4cde_881a_85260a2d3843">
+        <rdfs:label rdf:datatype="&xsd;string">Iron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_3bb09141_d2d9_4bf9_b3bf_88abb4c1ebb3 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_3bb09141_d2d9_4bf9_b3bf_88abb4c1ebb3">
+        <rdfs:label rdf:datatype="&xsd;string">Portrait</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A portrait is a picture of an individual.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa">
+        <rdfs:label rdf:datatype="&xsd;string">NutritionalValue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Every concept that contributes to food&apos;s nutrition.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_4f29c2c6_044a_477a_b225_0d5427669e7d -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_4f29c2c6_044a_477a_b225_0d5427669e7d">
+        <rdfs:label rdf:datatype="&xsd;string">Fibre</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_4ff8406e_18c1_4c25_b3a8_39b20057b536 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_4ff8406e_18c1_4c25_b3a8_39b20057b536">
+        <rdfs:label rdf:datatype="&xsd;string">User</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca">
+        <rdfs:label rdf:datatype="&xsd;string">PartitionValue</rdfs:label>
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&vegapp;OWLClass_0106359d_4cd3_4fd3_a934_3792d4b48e47"/>
+                    <rdf:Description rdf:about="&vegapp;OWLClass_790560cc_7867_40df_be6b_4bac74e03141"/>
+                    <rdf:Description rdf:about="&vegapp;OWLClass_9101ac8c_40ca_4a9f_8519_be2104d2c7d2"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
     </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_6e9790f0_eee1_4395_9d37_c0e05aebd84f -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_6e9790f0_eee1_4395_9d37_c0e05aebd84f">
+        <rdfs:label rdf:datatype="&xsd;string">DerivativeFoodItem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d"/>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_a9b95c20_09e3_478a_89a0_4a260a699483"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A composite food, i.e. made by other foods.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_76809236_d362_4825_ad3d_26c09a27024d -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d">
+        <rdfs:label rdf:datatype="&xsd;string">FoodItem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Food is any substance consumed to provide nutritional support for the body.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_790560cc_7867_40df_be6b_4bac74e03141 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_790560cc_7867_40df_be6b_4bac74e03141">
+        <rdfs:label rdf:datatype="&xsd;string">Medium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f">
+        <rdfs:label rdf:datatype="&xsd;string">Mineral</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b">
+        <rdfs:label rdf:datatype="&xsd;string">Carbohydrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Carbohydrates are compounds made up of types of sugars. Carbohydrates are classified by their number of sugar units: monosaccharides (such as glucose and fructose), disaccharides (such as sucrose and lactose), oligosaccharides, and polysaccharides (such as starch, glycogen, and cellulose).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_9101ac8c_40ca_4a9f_8519_be2104d2c7d2 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_9101ac8c_40ca_4a9f_8519_be2104d2c7d2">
+        <rdfs:label rdf:datatype="&xsd;string">Low</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_93027eb5_0733_4311_aaa7_33659daa0488 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488">
+        <rdfs:label rdf:datatype="&xsd;string">Person</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976">
+        <rdfs:label rdf:datatype="&xsd;string">Fat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Fats consist of a glycerin molecule with three fatty acids attached. Fatty acids are unbranched hydrocarbon chains,1 connected by single bonds alone (saturated fatty acids) or by both double and single bonds (unsaturated fatty acids). Fats are needed to keep cell membranes functioning properly, to insulate body organs against shock, to keep body temperature stable, and to maintain healthy skin and hair. The body does not manufacture certain fatty acids (termed essential fatty acids) and the diet must supply them.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5">
+        <rdfs:label rdf:datatype="&xsd;string">Vitamin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A vitamin is an organic compound and a vital nutrient that an organism requires in limited amounts. An organic chemical compound (or related set of compounds) is called a vitamin when the organism cannot synthesize the compound in sufficient quantities, and it must be obtained through the diet; thus, the term &quot;vitamin&quot; is conditional upon the circumstances and the particular organism.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856">
+        <rdfs:label rdf:datatype="&xsd;string">IndividualDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A descriptor for an individual.
+With descriptor we mean a particular characteristic, i.e. an attribute that can be assigned.
+With individual we mean a person or a specific object. Individuality (or selfhood) is the state or quality of being an individual; particularly of being a person separate from other persons and possessing his or her own needs or goals.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_a9b95c20_09e3_478a_89a0_4a260a699483 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_a9b95c20_09e3_478a_89a0_4a260a699483">
+        <rdfs:label rdf:datatype="&xsd;string">PrimeFoodItem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A food not derived by other foods. It is usually a raw ingredient without taking into account any possible modifier. It&apos;s usually referred as &quot;raw&quot; food.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5">
+        <rdfs:label rdf:datatype="&xsd;string">Protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Proteins are organic compounds that consist of amino acids joined by peptide bonds. The body cannot manufacture some of the amino acids (termed essential amino acids); the diet must supply them. Proteins, in nutrition, are broken down through digestion by proteases back into free amino acids.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_bea69477_cbe2_460d_a421_723b108ceb30 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_bea69477_cbe2_460d_a421_723b108ceb30">
+        <rdfs:label rdf:datatype="&xsd;string">Name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A name is a word or term used for (maybe partial, not necessarily unique) identification.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120">
+        <rdfs:label rdf:datatype="&xsd;string">Nutrient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa"/>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_dc966697_370a_4d24_80f9_4f02829907f0"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Nutrients are components in foods that an organism uses to survive and grow.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_dc966697_370a_4d24_80f9_4f02829907f0 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_dc966697_370a_4d24_80f9_4f02829907f0">
+        <rdfs:label rdf:datatype="&xsd;string">Energy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The energy of a food.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_dd9c7238_dac2_4f08_9bbf_39f4d69fb170 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_dd9c7238_dac2_4f08_9bbf_39f4d69fb170">
+        <rdfs:label rdf:datatype="&xsd;string">Salt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d">
+        <rdfs:label rdf:datatype="&xsd;string">DomainEntity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The base class for concepts specific for VegApp.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_ea4af4be_df4f_4353_be21_e23c260cada0 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_ea4af4be_df4f_4353_be21_e23c260cada0">
+        <rdfs:label rdf:datatype="&xsd;string">Potassium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_0f996860_4c19_4dc4_a528_2df4ec32b1a6"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_2d63aeab_22bf_4cde_881a_85260a2d3843"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_4f29c2c6_044a_477a_b225_0d5427669e7d"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_1b450163_92ac_4144_bd11_0d3bbbf117ac"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_3bb09141_d2d9_4bf9_b3bf_88abb4c1ebb3"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_bea69477_cbe2_460d_a421_723b108ceb30"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_0106359d_4cd3_4fd3_a934_3792d4b48e47"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_790560cc_7867_40df_be6b_4bac74e03141"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_9101ac8c_40ca_4a9f_8519_be2104d2c7d2"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_156c226b_d7fa_4a3f_bf59_0364ca5900dd"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_273645a6_122f_4039_935b_b505e69cdd6b"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_dd9c7238_dac2_4f08_9bbf_39f4d69fb170"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_ea4af4be_df4f_4353_be21_e23c260cada0"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
