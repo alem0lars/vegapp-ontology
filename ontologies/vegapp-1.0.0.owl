@@ -168,19 +168,39 @@
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_05acad87_635c_4ab2_9853_432942b22594 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_05acad87_635c_4ab2_9853_432942b22594">
+        <rdfs:label rdf:datatype="&xsd;string">SaturatedFat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976"/>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_3684bf41_eff9_4b05_84ea_80664f4d296e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_0aacc8a7_bc44_41ae_9feb_a3b8e76e55b9 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_0aacc8a7_bc44_41ae_9feb_a3b8e76e55b9">
+        <rdfs:label rdf:datatype="&xsd;string">SimpleCarbohydrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b"/>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_e8be6231_4033_4465_a35d_60ed438285d1"/>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_0f996860_4c19_4dc4_a528_2df4ec32b1a6 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_0f996860_4c19_4dc4_a528_2df4ec32b1a6">
-        <rdfs:label xml:lang="en">Water</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Water</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
     </owl:Class>
     
 
 
-    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_156c226b_d7fa_4a3f_bf59_0364ca5900dd -->
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_17cfe2f1_35d3_4268_b9a2_829fb33e68d3 -->
 
-    <owl:Class rdf:about="&vegapp;OWLClass_156c226b_d7fa_4a3f_bf59_0364ca5900dd">
-        <rdfs:label rdf:datatype="&xsd;string">Magnesium</rdfs:label>
+    <owl:Class rdf:about="&vegapp;OWLClass_17cfe2f1_35d3_4268_b9a2_829fb33e68d3">
+        <rdfs:label rdf:datatype="&xsd;string">Phosphorus</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
     </owl:Class>
     
@@ -196,21 +216,20 @@
     
 
 
-    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_273645a6_122f_4039_935b_b505e69cdd6b -->
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_24d12c27_2235_400b_bc7f_434b0c2b49d5 -->
 
-    <owl:Class rdf:about="&vegapp;OWLClass_273645a6_122f_4039_935b_b505e69cdd6b">
-        <rdfs:label rdf:datatype="&xsd;string">Calcium</rdfs:label>
+    <owl:Class rdf:about="&vegapp;OWLClass_24d12c27_2235_400b_bc7f_434b0c2b49d5">
+        <rdfs:label rdf:datatype="&xsd;string">Copper</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
-        <rdfs:comment rdf:datatype="&xsd;string">Calcium is an important component of a healthy diet and a mineral necessary for life. The National Osteoporosis Foundation says, &quot;Calcium plays an important role in building stronger, denser bones early in life and keeping bones strong and healthy later in life.&quot; Approximately 99 percent of the body&apos;s calcium is stored in the bones and teeth.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_2d63aeab_22bf_4cde_881a_85260a2d3843 -->
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_3684bf41_eff9_4b05_84ea_80664f4d296e -->
 
-    <owl:Class rdf:about="&vegapp;OWLClass_2d63aeab_22bf_4cde_881a_85260a2d3843">
-        <rdfs:label rdf:datatype="&xsd;string">Iron</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+    <owl:Class rdf:about="&vegapp;OWLClass_3684bf41_eff9_4b05_84ea_80664f4d296e">
+        <rdfs:label rdf:datatype="&xsd;string">UnsaturatedFat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976"/>
     </owl:Class>
     
 
@@ -225,6 +244,16 @@
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_3da8e974_2942_475d_b5fb_91aa6d9d9b3f -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_3da8e974_2942_475d_b5fb_91aa6d9d9b3f">
+        <rdfs:label rdf:datatype="&xsd;string">WaterSolubleVitamin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5"/>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c"/>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa">
@@ -235,11 +264,30 @@
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c">
+        <rdfs:label rdf:datatype="&xsd;string">FatSolubleVitamin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_4e2ee22c_5068_4f0b_b5e8_35768008a1f1 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_4e2ee22c_5068_4f0b_b5e8_35768008a1f1">
+        <rdfs:label rdf:datatype="&xsd;string">Manganese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_4f29c2c6_044a_477a_b225_0d5427669e7d -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_4f29c2c6_044a_477a_b225_0d5427669e7d">
-        <rdfs:label rdf:datatype="&xsd;string">Fibre</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+        <rdfs:label rdf:datatype="&xsd;string">AssimilableComplexCarbohydrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8be6231_4033_4465_a35d_60ed438285d1"/>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_5e83bfac_f2c6_4698_ad32_314795c06934"/>
     </owl:Class>
     
 
@@ -249,6 +297,15 @@
     <owl:Class rdf:about="&vegapp;OWLClass_4ff8406e_18c1_4c25_b3a8_39b20057b536">
         <rdfs:label rdf:datatype="&xsd;string">User</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_580bcd6e_bff2_439c_b417_585214297869 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_580bcd6e_bff2_439c_b417_585214297869">
+        <rdfs:label xml:lang="en">Fiber</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_5e83bfac_f2c6_4698_ad32_314795c06934"/>
     </owl:Class>
     
 
@@ -272,6 +329,24 @@
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_5e83bfac_f2c6_4698_ad32_314795c06934 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_5e83bfac_f2c6_4698_ad32_314795c06934">
+        <rdfs:label xml:lang="en">UnassimilableComplexCarbohydrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8be6231_4033_4465_a35d_60ed438285d1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_695ab0b5_e016_4e05_b287_3e4ed5542b56 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_695ab0b5_e016_4e05_b287_3e4ed5542b56">
+        <rdfs:label rdf:datatype="&xsd;string">Calcium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_6e9790f0_eee1_4395_9d37_c0e05aebd84f -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_6e9790f0_eee1_4395_9d37_c0e05aebd84f">
@@ -279,6 +354,15 @@
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d"/>
         <owl:disjointWith rdf:resource="&vegapp;OWLClass_a9b95c20_09e3_478a_89a0_4a260a699483"/>
         <rdfs:comment rdf:datatype="&xsd;string">A composite food, i.e. made by other foods.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_6f61e1fa_d1d0_4f33_a791_a4e05bd965d3 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_6f61e1fa_d1d0_4f33_a791_a4e05bd965d3">
+        <rdfs:label rdf:datatype="&xsd;string">Iron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
     </owl:Class>
     
 
@@ -302,11 +386,29 @@
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_7ec39e52_9219_4a91_9dd4_aa099cd112da -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_7ec39e52_9219_4a91_9dd4_aa099cd112da">
+        <rdfs:label rdf:datatype="&xsd;string">Potassium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f">
         <rdfs:label rdf:datatype="&xsd;string">Mineral</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_82ff3ac2_93a0_4642_9d29_947aade9c416 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_82ff3ac2_93a0_4642_9d29_947aade9c416">
+        <rdfs:label rdf:datatype="&xsd;string">Zinc</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
     </owl:Class>
     
 
@@ -340,12 +442,30 @@
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_98a25efb_5c74_4c33_8a40_0ffa1153563e -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_98a25efb_5c74_4c33_8a40_0ffa1153563e">
+        <rdfs:label rdf:datatype="&xsd;string">Fluorine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_9e6523a5_b00f_4134_bc76_d7e8f1ba7214 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_9e6523a5_b00f_4134_bc76_d7e8f1ba7214">
+        <rdfs:label rdf:datatype="&xsd;string">Iodine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976">
         <rdfs:label rdf:datatype="&xsd;string">Fat</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
-        <rdfs:comment rdf:datatype="&xsd;string">Fats consist of a glycerin molecule with three fatty acids attached. Fatty acids are unbranched hydrocarbon chains,1 connected by single bonds alone (saturated fatty acids) or by both double and single bonds (unsaturated fatty acids). Fats are needed to keep cell membranes functioning properly, to insulate body organs against shock, to keep body temperature stable, and to maintain healthy skin and hair. The body does not manufacture certain fatty acids (termed essential fatty acids) and the diet must supply them.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fats consist of a glycerin molecule with three fatty acids attached. Fatty acids are unbranched hydrocarbon chains, 1 connected by single bonds alone (saturated fatty acids) or by both double and single bonds (unsaturated fatty acids). Fats are needed to keep cell membranes functioning properly, to insulate body organs against shock, to keep body temperature stable, and to maintain healthy skin and hair. The body does not manufacture certain fatty acids (termed essential fatty acids) and the diet must supply them.</rdfs:comment>
     </owl:Class>
     
 
@@ -382,12 +502,30 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_b3e0c3a4_63eb_4e1c_8128_3233164e5b03 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_b3e0c3a4_63eb_4e1c_8128_3233164e5b03">
+        <rdfs:label rdf:datatype="&xsd;string">Sodium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5">
         <rdfs:label rdf:datatype="&xsd;string">Protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
         <rdfs:comment rdf:datatype="&xsd;string">Proteins are organic compounds that consist of amino acids joined by peptide bonds. The body cannot manufacture some of the amino acids (termed essential amino acids); the diet must supply them. Proteins, in nutrition, are broken down through digestion by proteases back into free amino acids.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_bc21fc44_cf59_4c2b_add4_d6246c822740 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_bc21fc44_cf59_4c2b_add4_d6246c822740">
+        <rdfs:label rdf:datatype="&xsd;string">Magnesium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
     </owl:Class>
     
 
@@ -413,6 +551,15 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_c6ebe416_8392_46d3_99ec_cb70787a8fd7 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_c6ebe416_8392_46d3_99ec_cb70787a8fd7">
+        <rdfs:label rdf:datatype="&xsd;string">Chrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_dc966697_370a_4d24_80f9_4f02829907f0 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_dc966697_370a_4d24_80f9_4f02829907f0">
@@ -423,11 +570,20 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     
 
 
-    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_dd9c7238_dac2_4f08_9bbf_39f4d69fb170 -->
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e472a3e4_a7a7_44b3_96ac_ab775ccf2597 -->
 
-    <owl:Class rdf:about="&vegapp;OWLClass_dd9c7238_dac2_4f08_9bbf_39f4d69fb170">
-        <rdfs:label rdf:datatype="&xsd;string">Salt</rdfs:label>
+    <owl:Class rdf:about="&vegapp;OWLClass_e472a3e4_a7a7_44b3_96ac_ab775ccf2597">
+        <rdfs:label rdf:datatype="&xsd;string">Selenium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e8be6231_4033_4465_a35d_60ed438285d1 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_e8be6231_4033_4465_a35d_60ed438285d1">
+        <rdfs:label rdf:datatype="&xsd;string">ComplexCarbohydrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b"/>
     </owl:Class>
     
 
@@ -442,15 +598,6 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     
 
 
-    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_ea4af4be_df4f_4353_be21_e23c260cada0 -->
-
-    <owl:Class rdf:about="&vegapp;OWLClass_ea4af4be_df4f_4353_be21_e23c260cada0">
-        <rdfs:label rdf:datatype="&xsd;string">Potassium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -459,19 +606,6 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="&vegapp;OWLClass_0f996860_4c19_4dc4_a528_2df4ec32b1a6"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_2d63aeab_22bf_4cde_881a_85260a2d3843"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_4f29c2c6_044a_477a_b225_0d5427669e7d"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -491,10 +625,30 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="&vegapp;OWLClass_156c226b_d7fa_4a3f_bf59_0364ca5900dd"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_273645a6_122f_4039_935b_b505e69cdd6b"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_dd9c7238_dac2_4f08_9bbf_39f4d69fb170"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_ea4af4be_df4f_4353_be21_e23c260cada0"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_0f996860_4c19_4dc4_a528_2df4ec32b1a6"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_17cfe2f1_35d3_4268_b9a2_829fb33e68d3"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_24d12c27_2235_400b_bc7f_434b0c2b49d5"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_4e2ee22c_5068_4f0b_b5e8_35768008a1f1"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_695ab0b5_e016_4e05_b287_3e4ed5542b56"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_6f61e1fa_d1d0_4f33_a791_a4e05bd965d3"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_7ec39e52_9219_4a91_9dd4_aa099cd112da"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_82ff3ac2_93a0_4642_9d29_947aade9c416"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_98a25efb_5c74_4c33_8a40_0ffa1153563e"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_9e6523a5_b00f_4134_bc76_d7e8f1ba7214"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_b3e0c3a4_63eb_4e1c_8128_3233164e5b03"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_bc21fc44_cf59_4c2b_add4_d6246c822740"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_c6ebe416_8392_46d3_99ec_cb70787a8fd7"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_e472a3e4_a7a7_44b3_96ac_ab775ccf2597"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
