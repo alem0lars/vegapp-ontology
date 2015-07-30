@@ -41,9 +41,10 @@
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
-        <rdfs:label xml:lang="en">hasEnergy</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">hasEnergy</rdfs:label>
         <rdfs:domain rdf:resource="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d"/>
         <rdfs:range rdf:resource="&vegapp;OWLClass_dc966697_370a_4d24_80f9_4f02829907f0"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -54,7 +55,7 @@
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
-        <rdfs:label xml:lang="en">hasLastName</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">hasLastName</rdfs:label>
         <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
         <rdfs:range rdf:resource="&vegapp;OWLClass_bea69477_cbe2_460d_a421_723b108ceb30"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
@@ -68,9 +69,10 @@
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
-        <rdfs:label xml:lang="en">hasEmail</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">hasEmail</rdfs:label>
         <rdfs:range rdf:resource="&vegapp;OWLClass_1b450163_92ac_4144_bd11_0d3bbbf117ac"/>
         <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -84,6 +86,22 @@
         <rdfs:label rdf:datatype="&xsd;string">belongsToPartition</rdfs:label>
         <rdfs:domain rdf:resource="&vegapp;OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa"/>
         <rdfs:range rdf:resource="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_7be9b78f_0f49_4749_a20c_9b3bee5bb653 -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_7be9b78f_0f49_4749_a20c_9b3bee5bb653">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">isAuthorOf</rdfs:label>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_4ff8406e_18c1_4c25_b3a8_39b20057b536"/>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_6e9790f0_eee1_4395_9d37_c0e05aebd84f"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -97,6 +115,21 @@
         <rdfs:label rdf:datatype="&xsd;string">hasPortrait</rdfs:label>
         <rdfs:range rdf:resource="&vegapp;OWLClass_3bb09141_d2d9_4bf9_b3bf_88abb4c1ebb3"/>
         <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_d580d07f_df69_40d3_86be_de982b829570 -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_d580d07f_df69_40d3_86be_de982b829570">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">containsFoodItem</rdfs:label>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_6e9790f0_eee1_4395_9d37_c0e05aebd84f"/>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -107,9 +140,23 @@
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
-        <rdfs:label xml:lang="en">hasFirstName</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">hasFirstName</rdfs:label>
         <rdfs:domain rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
         <rdfs:range rdf:resource="&vegapp;OWLClass_bea69477_cbe2_460d_a421_723b108ceb30"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLObjectProperty_f8afff95_51df_4f99_a4d8_0e33be18bd54 -->
+
+    <owl:ObjectProperty rdf:about="&vegapp;OWLObjectProperty_f8afff95_51df_4f99_a4d8_0e33be18bd54">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">hasNutritionalValue</rdfs:label>
+        <rdfs:range rdf:resource="&vegapp;OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa"/>
+        <rdfs:domain rdf:resource="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -164,6 +211,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_0106359d_4cd3_4fd3_a934_3792d4b48e47">
         <rdfs:label rdf:datatype="&xsd;string">High</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A value considered &quot;high&quot;.</rdfs:comment>
     </owl:Class>
     
 
@@ -174,6 +222,7 @@
         <rdfs:label rdf:datatype="&xsd;string">SaturatedFat</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976"/>
         <owl:disjointWith rdf:resource="&vegapp;OWLClass_3684bf41_eff9_4b05_84ea_80664f4d296e"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A saturated fat is a fat that consists of triglycerides containing only saturated fatty acids. Saturated fatty acids have no double bonds between the individual carbon atoms of the fatty acid chain. That is, the chain of carbon atoms is fully &quot;saturated&quot; with hydrogen atoms.</rdfs:comment>
     </owl:Class>
     
 
@@ -184,6 +233,7 @@
         <rdfs:label rdf:datatype="&xsd;string">SimpleCarbohydrate</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b"/>
         <owl:disjointWith rdf:resource="&vegapp;OWLClass_e8be6231_4033_4465_a35d_60ed438285d1"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A simple carbohydrate is made of just one or two sugar molecules. It is the quickest source of energy, as it is very rapidly digested.</rdfs:comment>
     </owl:Class>
     
 
@@ -193,6 +243,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_0f996860_4c19_4dc4_a528_2df4ec32b1a6">
         <rdfs:label rdf:datatype="&xsd;string">Water</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Water is a combination of hydrogen and oxygen. It is the basis for the fluids of the body.</rdfs:comment>
     </owl:Class>
     
 
@@ -202,6 +253,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_17cfe2f1_35d3_4268_b9a2_829fb33e68d3">
         <rdfs:label rdf:datatype="&xsd;string">Phosphorus</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The major function of phosphorus is in the formation, with calcium, of the bone component hydroxyapatite. 80% of the phosphorous in the body is present as calcium salts in the skeleton and, therefore, is essential for healthy bone and tooth structure. In the adult, there is a dynamic equilibrium between calcium and phosphate in the continual remodelling of bones.. The rest of the body’s phosphorus is distributed in all cells. It is essential for the structure of cell membranes (in phospholipids) and intercellular phosphorus contributes to a number of processes associated with energy metabolism.</rdfs:comment>
     </owl:Class>
     
 
@@ -221,6 +273,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_24d12c27_2235_400b_bc7f_434b0c2b49d5">
         <rdfs:label rdf:datatype="&xsd;string">Copper</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Copper is the third most abundant dietary trace metal after iron and zinc. It is a component of many enzymes and is needed to produce red and white blood cells. The body also needs copper to utilise iron efficiently and it is thought to be important for infant growth, brain development, the immune system and for strong bones.</rdfs:comment>
     </owl:Class>
     
 
@@ -230,6 +283,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_3684bf41_eff9_4b05_84ea_80664f4d296e">
         <rdfs:label rdf:datatype="&xsd;string">UnsaturatedFat</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976"/>
+        <rdfs:comment rdf:datatype="&xsd;string">An unsaturated fat is a fat or fatty acid in which there is at least one double bond within the fatty acid chain.</rdfs:comment>
     </owl:Class>
     
 
@@ -244,12 +298,44 @@
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_3c4b9ca3_7180_4b40_b5c3_812e7264c3ba -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_3c4b9ca3_7180_4b40_b5c3_812e7264c3ba">
+        <rdfs:label xml:lang="en">VitaminB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_3da8e974_2942_475d_b5fb_91aa6d9d9b3f"/>
+        <owl:disjointWith rdf:resource="&vegapp;OWLClass_41b0c643_dcc2_4355_a19b_c3c3a8d68676"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The B vitamins are widely distributed in foods,and their influence is felt in many parts of the body. They function as coenzymes that help the body obtain energy from food. The B vitamins are also important for normal appetite, good vision, and healthy skin, nervous system, and red blood cell formation.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_3da8e974_2942_475d_b5fb_91aa6d9d9b3f -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_3da8e974_2942_475d_b5fb_91aa6d9d9b3f">
         <rdfs:label rdf:datatype="&xsd;string">WaterSolubleVitamin</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5"/>
         <owl:disjointWith rdf:resource="&vegapp;OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A water-soluble vitamin dissolves in water and is not stored by the body. Since it is eliminated in urine, we require a continuous daily supply in our diet.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_41b0c643_dcc2_4355_a19b_c3c3a8d68676 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_41b0c643_dcc2_4355_a19b_c3c3a8d68676">
+        <rdfs:label xml:lang="en">VitaminC</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_3da8e974_2942_475d_b5fb_91aa6d9d9b3f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Vitamin C benefits the body by holding cells together through collagen synthesis; collagen is a connective tissue that holds muscles, bones, and other tissues together. Vitamin C also aids in wound healing, bone and tooth formation, strengthening blood vessel walls, improving immune system function, increasing absorption and utilization of iron, and acting as an antioxidant.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_426ab8a7_45bd_4756_aabf_9218646af960 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_426ab8a7_45bd_4756_aabf_9218646af960">
+        <rdfs:label rdf:datatype="&xsd;string">NutritionalProblem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A nutritional problem.</rdfs:comment>
     </owl:Class>
     
 
@@ -269,6 +355,8 @@
     <owl:Class rdf:about="&vegapp;OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c">
         <rdfs:label rdf:datatype="&xsd;string">FatSolubleVitamin</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The fat soluble vitamins is soluble in lipids (fats). This vitamin is usually absorbed in fat globules (called chylomicrons) that travel through the lymphatic system of the small intestines and into the general blood circulation within the body.
+It is stored in the body for long periods of time and generally poses a greater risk for toxicity when consumed in excess than water-soluble vitamins.</rdfs:comment>
     </owl:Class>
     
 
@@ -278,6 +366,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_4e2ee22c_5068_4f0b_b5e8_35768008a1f1">
         <rdfs:label rdf:datatype="&xsd;string">Manganese</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Manganese is required for bone formation and for energy metabolism. It is also a constituent of an antioxidant enzyme, which helps prevent free radical-mediated damage to cells.</rdfs:comment>
     </owl:Class>
     
 
@@ -288,6 +377,7 @@
         <rdfs:label rdf:datatype="&xsd;string">AssimilableComplexCarbohydrate</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8be6231_4033_4465_a35d_60ed438285d1"/>
         <owl:disjointWith rdf:resource="&vegapp;OWLClass_5e83bfac_f2c6_4698_ad32_314795c06934"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A complex carbohydrate that can be readily absorbed by the body and incorporated into body tissue.</rdfs:comment>
     </owl:Class>
     
 
@@ -297,6 +387,17 @@
     <owl:Class rdf:about="&vegapp;OWLClass_4ff8406e_18c1_4c25_b3a8_39b20057b536">
         <rdfs:label rdf:datatype="&xsd;string">User</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A person using VegApp.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_5716b0f4_8527_426d_889c_5f4656c0abcb -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_5716b0f4_8527_426d_889c_5f4656c0abcb">
+        <rdfs:label rdf:datatype="&xsd;string">VitaminA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Vitamin A, also called retinol, has many functions in the body. In addition to helping the eyes adjust to light changes, vitamin A plays an important role in bone growth, tooth development, reproduction, cell division, gene expression, and regulation of the immune system. The skin, eyes, and mucous membranes of the mouth, nose, throat and lungs depend on vitamin A to remain moist. Vitamin A is also an important antioxidant that may play a role in the prevention of certain cancers.</rdfs:comment>
     </owl:Class>
     
 
@@ -304,8 +405,9 @@
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_580bcd6e_bff2_439c_b417_585214297869 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_580bcd6e_bff2_439c_b417_585214297869">
-        <rdfs:label xml:lang="en">Fiber</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Fiber</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_5e83bfac_f2c6_4698_ad32_314795c06934"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Fiber is a type of carbohydrate that the body can&apos;t digest. Though most carbohydrates are broken down into sugar molecules, fiber cannot be broken down into sugar molecules, and instead it passes through the body undigested.</rdfs:comment>
     </owl:Class>
     
 
@@ -324,7 +426,7 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A value that can be classified in a particular slice in respect to all of the possible values.</rdfs:comment>
     </owl:Class>
     
 
@@ -332,8 +434,9 @@
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_5e83bfac_f2c6_4698_ad32_314795c06934 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_5e83bfac_f2c6_4698_ad32_314795c06934">
-        <rdfs:label xml:lang="en">UnassimilableComplexCarbohydrate</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">UnassimilableComplexCarbohydrate</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8be6231_4033_4465_a35d_60ed438285d1"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A complex carbohydrate that isn&apos;t readily absorbed by the body.</rdfs:comment>
     </owl:Class>
     
 
@@ -343,6 +446,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_695ab0b5_e016_4e05_b287_3e4ed5542b56">
         <rdfs:label rdf:datatype="&xsd;string">Calcium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Calcium (Ca) is the most abundant mineral in the body and is essential for a number of vital functions. The body needs adequate dietary calcium (alongside vitamin D and several other nutrients such as vitamin K) to develop and maintain healthy bones and teeth. Calcium also plays a vital role in many systems including intracellular signalling to enable the integration and regulation of metabolic processes, the transmission of information via the nervous system, the control of muscle contraction (including the heart) and blood clotting. Furthermore, it has been suggested that adequate calcium intake (for example from reduced fat dairy products) may help lower high blood pressure and may help protect against colon cancer, although more evidence is needed to fully substantiate these functions.</rdfs:comment>
     </owl:Class>
     
 
@@ -363,6 +467,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_6f61e1fa_d1d0_4f33_a791_a4e05bd965d3">
         <rdfs:label rdf:datatype="&xsd;string">Iron</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Iron is essential for the formation of haemoglobin in red blood cells; haemoglobin binds oxygen and transports it around the body. Iron is also an essential component in many enzyme reactions and has an important role in the immune system. In addition, it is required for normal energy metabolism and for the metabolism of drugs and foreign substances that need to be removed from the body.</rdfs:comment>
     </owl:Class>
     
 
@@ -382,6 +487,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_790560cc_7867_40df_be6b_4bac74e03141">
         <rdfs:label rdf:datatype="&xsd;string">Medium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A value considered &quot;medium&quot;.</rdfs:comment>
     </owl:Class>
     
 
@@ -391,6 +497,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_7ec39e52_9219_4a91_9dd4_aa099cd112da">
         <rdfs:label rdf:datatype="&xsd;string">Potassium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Potassium is essential for water and electrolyte balance and the normal functioning of cells, including nerves. Increased dietary intakes of potassium have been associated with a decrease in blood pressure, as it promotes loss of sodium in the urine. It is suggested that an increase in potassium intakes may offset the impact of some of the sodium in the diet, therefore helping to protect cardiovascular health.</rdfs:comment>
     </owl:Class>
     
 
@@ -400,6 +507,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f">
         <rdfs:label rdf:datatype="&xsd;string">Mineral</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_c41c819a_589d_4c3c_9c15_7b3659137120"/>
+        <rdfs:comment rdf:datatype="&xsd;string">An inorganic substance required by the body in small amounts for a variety of functions.</rdfs:comment>
     </owl:Class>
     
 
@@ -409,6 +517,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_82ff3ac2_93a0_4642_9d29_947aade9c416">
         <rdfs:label rdf:datatype="&xsd;string">Zinc</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The major function of zinc in human metabolism is as a cofactor for numerous enzymes. Zinc has a key role as a catalyst in a wide range of reactions. It is directly or indirectly involved in the major metabolic pathways concerned with protein, lipid, carbohydrate and energy metabolism and is also essential for cell division and, therefore, for growth and tissue repair and for normal reproductive development. In addition, zinc is required for the functioning of the immune system and in the structure and function of the skin, and hence plays a vital role in wound healing.</rdfs:comment>
     </owl:Class>
     
 
@@ -423,11 +532,22 @@
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_892f6ffb_09ba_43c4_916e_d5564fa9205c -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_892f6ffb_09ba_43c4_916e_d5564fa9205c">
+        <rdfs:label rdf:datatype="&xsd;string">NutritionalAttribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A structured atomic piece of information about nutrition.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_9101ac8c_40ca_4a9f_8519_be2104d2c7d2 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_9101ac8c_40ca_4a9f_8519_be2104d2c7d2">
         <rdfs:label rdf:datatype="&xsd;string">Low</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A value considered &quot;high&quot;.</rdfs:comment>
     </owl:Class>
     
 
@@ -436,8 +556,17 @@
 
     <owl:Class rdf:about="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488">
         <rdfs:label rdf:datatype="&xsd;string">Person</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
-        <owl:disjointWith rdf:resource="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A person is a being, such as a human, that has certain capacities or attributes constituting personhood.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_93f3cd12_3178_416a_9cb2_f22b65438284 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_93f3cd12_3178_416a_9cb2_f22b65438284">
+        <rdfs:label rdf:datatype="&xsd;string">NonessentialAminoacid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5"/>
+        <rdfs:comment rdf:datatype="&xsd;string">An aminoacid the body can make for itself.</rdfs:comment>
     </owl:Class>
     
 
@@ -447,6 +576,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_98a25efb_5c74_4c33_8a40_0ffa1153563e">
         <rdfs:label rdf:datatype="&xsd;string">Fluorine</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The main function of fluoride in the body is in the mineralisation of bones and teeth. Fluoride also protects the teeth from dental caries (tooth decay) and is now routinely added to most toothpastes.</rdfs:comment>
     </owl:Class>
     
 
@@ -456,6 +586,7 @@
     <owl:Class rdf:about="&vegapp;OWLClass_9e6523a5_b00f_4134_bc76_d7e8f1ba7214">
         <rdfs:label rdf:datatype="&xsd;string">Iodine</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Iodine is an essential component of the thyroid hormones, thyroxine and triidothyronine, which are vital regulators of metabolic rate and of physical and mental development.</rdfs:comment>
     </owl:Class>
     
 
@@ -484,7 +615,6 @@
 
     <owl:Class rdf:about="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856">
         <rdfs:label rdf:datatype="&xsd;string">IndividualDescriptor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
         <rdfs:comment rdf:datatype="&xsd;string">A descriptor for an individual.
 With descriptor we mean a particular characteristic, i.e. an attribute that can be assigned.
 With individual we mean a person or a specific object. Individuality (or selfhood) is the state or quality of being an individual; particularly of being a person separate from other persons and possessing his or her own needs or goals.</rdfs:comment>
@@ -507,6 +637,7 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     <owl:Class rdf:about="&vegapp;OWLClass_b3e0c3a4_63eb_4e1c_8128_3233164e5b03">
         <rdfs:label rdf:datatype="&xsd;string">Sodium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Sodium is responsible for regulating body water content and electrolyte balance. The control of blood sodium levels depends on a balance between sodium excretion and absorption at the kidneys, which is regulated by nerves and hormones. Sodium is also required for the absorption of certain nutrients and water from the gut. Sodium is a component of common salt, known as sodium chloride (NaCl).</rdfs:comment>
     </owl:Class>
     
 
@@ -521,11 +652,22 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_b9c120bc_69b4_435b_87e4_decb2b37ba10 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_b9c120bc_69b4_435b_87e4_decb2b37ba10">
+        <rdfs:label rdf:datatype="&xsd;string">NutritionalCharacteristic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A plain (unstructured) atomic piece of information (aka characteristic) about nutrition.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_bc21fc44_cf59_4c2b_add4_d6246c822740 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_bc21fc44_cf59_4c2b_add4_d6246c822740">
         <rdfs:label rdf:datatype="&xsd;string">Magnesium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Magnesium is an essential mineral present in all human tissues, especially in bone. It has both physiological and biochemical functions and has important interrelationships with calcium, potassium and sodium. It is needed for the activation of many enzymes (for example enzymes concerned with the replication of DNA and the synthesis of RNA) and for parathyroid hormone secretion, which in involved in bone metabolism. It is also needed for muscle and nerve function.</rdfs:comment>
     </owl:Class>
     
 
@@ -536,6 +678,16 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
         <rdfs:label rdf:datatype="&xsd;string">Name</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856"/>
         <rdfs:comment rdf:datatype="&xsd;string">A name is a word or term used for (maybe partial, not necessarily unique) identification.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_bedc3918_c92b_4285_a702_b89b25b11c40 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_bedc3918_c92b_4285_a702_b89b25b11c40">
+        <rdfs:label rdf:datatype="&xsd;string">VitaminD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Vitamin D plays a critical role in the body’s use of calcium and phosphorous. It works by increasing the amount of calcium absorbed from the small intestine, helping to form and maintain bones. Vitamin D benefits the body by playing a role in immunity and controlling cell growth. Children especially need adequate amounts of vitamin D to develop strong bones and healthy teeth.</rdfs:comment>
     </owl:Class>
     
 
@@ -554,8 +706,19 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_c6ebe416_8392_46d3_99ec_cb70787a8fd7 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_c6ebe416_8392_46d3_99ec_cb70787a8fd7">
-        <rdfs:label rdf:datatype="&xsd;string">Chrome</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Chromium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Chromium (III) is the active form of this nutrient and its main functions appear to be linked with carbohydrate and lipid metabolism. This form of chromium is thought to promote the action of insulin, the hormone which controls glucose levels in the blood. Subjects with adequate dietary chromium have improved control over blood glucose and a better blood lipid profile.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_d9f0498c_aea4_4514_82b3_a81298f04188 -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_d9f0498c_aea4_4514_82b3_a81298f04188">
+        <rdfs:label rdf:datatype="&xsd;string">VitaminE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Vitamin E benefits the body by acting as an antioxidant, and protecting vitamins A and C, red blood cells, and essential fatty acids from destruction. Research from decades ago suggested that taking antioxidant supplements, vitamin E in particular, might help prevent heart disease and cancer. However, newer findings indicate that people who take antioxidant and vitamin E supplements are not better protected against heart disease and cancer than non-supplement users. Many studies show a link between regularly eating an antioxidant rich diet full of fruits and vegetables, and a lower risk for heart disease, cancer, and several other diseases. Essentially, recent research indicates that to receive the full benefits of antioxidants and phytonutrients in the diet, one should consume these compounds in the form of fruits and vegetables, not as supplements.</rdfs:comment>
     </owl:Class>
     
 
@@ -570,11 +733,22 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     
 
 
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e28db77e_4d68_4cd0_9df2_4f1604aeedfc -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_e28db77e_4d68_4cd0_9df2_4f1604aeedfc">
+        <rdfs:label rdf:datatype="&xsd;string">VitaminK</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_4b5394ba_74fd_4d2d_95da_28fe9084310c"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Vitamin K is naturally produced by the bacteria in the intestines, and plays an essential role in normal blood clotting, promoting bone health, and helping to produce proteins for blood, bones, and kidneys.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_e472a3e4_a7a7_44b3_96ac_ab775ccf2597 -->
 
     <owl:Class rdf:about="&vegapp;OWLClass_e472a3e4_a7a7_44b3_96ac_ab775ccf2597">
         <rdfs:label rdf:datatype="&xsd;string">Selenium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_8217c3d6_7673_4606_9625_d8ee8ba6c21f"/>
+        <rdfs:comment rdf:datatype="&xsd;string">The main function of selenium is as a component of some of the important antioxidant enzymes (e.g. glutathione peroxidase), and therefore to protect the body against oxidative damage. It is also necessary for the use of iodine in thyroid hormone production, for immune system function and for reproductive function.</rdfs:comment>
     </owl:Class>
     
 
@@ -584,6 +758,7 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     <owl:Class rdf:about="&vegapp;OWLClass_e8be6231_4033_4465_a35d_60ed438285d1">
         <rdfs:label rdf:datatype="&xsd;string">ComplexCarbohydrate</rdfs:label>
         <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_87ba670b_4075_4043_930e_ae2b5b2e060b"/>
+        <rdfs:comment rdf:datatype="&xsd;string">It contains longer chains of sugar molecules; it usually take more time for the body to break down and use. This, in turn, provides you with a more even amount of energy.</rdfs:comment>
     </owl:Class>
     
 
@@ -594,6 +769,16 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
         <rdfs:label rdf:datatype="&xsd;string">DomainEntity</rdfs:label>
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <rdfs:comment rdf:datatype="&xsd;string">The base class for concepts specific for VegApp.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://molarialessandro.rocks/ontologies/vegapp#OWLClass_ea21cda9_8fa0_4e9b_b402_3c3ca0c94bec -->
+
+    <owl:Class rdf:about="&vegapp;OWLClass_ea21cda9_8fa0_4e9b_b402_3c3ca0c94bec">
+        <rdfs:label rdf:datatype="&xsd;string">EssentialAminoacid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&vegapp;OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5"/>
+        <rdfs:comment rdf:datatype="&xsd;string">An aminoacid the body can&apos;t manifacture.</rdfs:comment>
     </owl:Class>
     
 
@@ -609,17 +794,11 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="&vegapp;OWLClass_1b450163_92ac_4144_bd11_0d3bbbf117ac"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_3bb09141_d2d9_4bf9_b3bf_88abb4c1ebb3"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_bea69477_cbe2_460d_a421_723b108ceb30"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="&vegapp;OWLClass_0106359d_4cd3_4fd3_a934_3792d4b48e47"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_790560cc_7867_40df_be6b_4bac74e03141"/>
-            <rdf:Description rdf:about="&vegapp;OWLClass_9101ac8c_40ca_4a9f_8519_be2104d2c7d2"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_426ab8a7_45bd_4756_aabf_9218646af960"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_42b17174_f86c_4ebe_a8d5_eef186b9caaa"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_76809236_d362_4825_ad3d_26c09a27024d"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_892f6ffb_09ba_43c4_916e_d5564fa9205c"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_b9c120bc_69b4_435b_87e4_decb2b37ba10"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -631,6 +810,32 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
             <rdf:Description rdf:about="&vegapp;OWLClass_a1184e09_38ad_4797_ae24_ef1d18d30976"/>
             <rdf:Description rdf:about="&vegapp;OWLClass_a1b04d14_f6c6_4cce_a844_852b4369edb5"/>
             <rdf:Description rdf:about="&vegapp;OWLClass_b969ba53_84fe_4ab1_839d_3981870bb6a5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_5a86db15_8c2a_44fd_93a2_e7a3bffadeca"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_93027eb5_0733_4311_aaa7_33659daa0488"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_a541a544_3c76_4a11_8ba3_d9af0279b856"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_e8c25a67_8676_4d2e_b1c2_24277d948a8d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_5716b0f4_8527_426d_889c_5f4656c0abcb"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_bedc3918_c92b_4285_a702_b89b25b11c40"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_d9f0498c_aea4_4514_82b3_a81298f04188"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_e28db77e_4d68_4cd0_9df2_4f1604aeedfc"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_0106359d_4cd3_4fd3_a934_3792d4b48e47"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_790560cc_7867_40df_be6b_4bac74e03141"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_9101ac8c_40ca_4a9f_8519_be2104d2c7d2"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -649,6 +854,14 @@ With individual we mean a person or a specific object. Individuality (or selfhoo
             <rdf:Description rdf:about="&vegapp;OWLClass_bc21fc44_cf59_4c2b_add4_d6246c822740"/>
             <rdf:Description rdf:about="&vegapp;OWLClass_c6ebe416_8392_46d3_99ec_cb70787a8fd7"/>
             <rdf:Description rdf:about="&vegapp;OWLClass_e472a3e4_a7a7_44b3_96ac_ab775ccf2597"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&vegapp;OWLClass_1b450163_92ac_4144_bd11_0d3bbbf117ac"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_3bb09141_d2d9_4bf9_b3bf_88abb4c1ebb3"/>
+            <rdf:Description rdf:about="&vegapp;OWLClass_bea69477_cbe2_460d_a421_723b108ceb30"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
